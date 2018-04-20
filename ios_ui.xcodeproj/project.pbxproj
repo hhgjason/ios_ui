@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C47D5CC2087675D00BFA1A2 /* tabBarIcon in Resources */ = {isa = PBXBuildFile; fileRef = 3C47D5CB2087675C00BFA1A2 /* tabBarIcon */; };
+		3C928023208A20C000B609A5 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C928022208A20C000B609A5 /* ViewController1.m */; };
 		3C975AC120861743002F538F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C975AC020861743002F538F /* AppDelegate.m */; };
 		3C975AC420861743002F538F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C975AC320861743002F538F /* ViewController.m */; };
 		3C975AC720861743002F538F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C975AC520861743002F538F /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		3C47D5CB2087675C00BFA1A2 /* tabBarIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tabBarIcon; sourceTree = "<group>"; };
+		3C928021208A20C000B609A5 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		3C928022208A20C000B609A5 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		3C975ABC20861743002F538F /* ios_ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_ui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C975ABF20861743002F538F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C975AC020861743002F538F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				3C975AD020861745002F538F /* Info.plist */,
 				3C975AD120861745002F538F /* main.m */,
 				3C975AC820861743002F538F /* ios_ui.xcdatamodeld */,
+				3C928021208A20C000B609A5 /* ViewController1.h */,
+				3C928022208A20C000B609A5 /* ViewController1.m */,
 			);
 			path = ios_ui;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C928023208A20C000B609A5 /* ViewController1.m in Sources */,
 				3C975ACA20861743002F538F /* ios_ui.xcdatamodeld in Sources */,
 				3C975AC420861743002F538F /* ViewController.m in Sources */,
 				3C975AD220861745002F538F /* main.m in Sources */,
